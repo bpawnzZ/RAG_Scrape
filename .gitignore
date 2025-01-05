@@ -1,3 +1,5 @@
+js_scrape/node_modules/*
+js_scrape/node_modules/output
 .aider*
 .env
  __pycache__/                                                                                                      
