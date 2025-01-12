@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="openmeter"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:57:52 GMT
+Etag: W/"47b529cdbe36d2927af7340ee22fb07f"
+Last-Modified: Sun, 12 Jan 2025 04:57:52 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::n2z79-1736657872877-8febc9d2a158

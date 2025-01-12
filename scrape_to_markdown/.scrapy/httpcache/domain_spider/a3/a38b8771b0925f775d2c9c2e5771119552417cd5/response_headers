@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="Quivr"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:54:28 GMT
+Etag: W/"8224ce7ec82f6816c700974a97764558"
+Last-Modified: Sun, 12 Jan 2025 04:54:28 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::bl6kl-1736657668292-7147a711c8b8

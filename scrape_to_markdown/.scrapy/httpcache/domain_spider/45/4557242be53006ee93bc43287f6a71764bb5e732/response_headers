@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="wandb_integration"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:57:09 GMT
+Etag: W/"e72f4d25f1590338e83ffa4fcfd87f2f"
+Last-Modified: Sun, 12 Jan 2025 04:57:09 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::cmwfd-1736657829836-b39aa8aaa665

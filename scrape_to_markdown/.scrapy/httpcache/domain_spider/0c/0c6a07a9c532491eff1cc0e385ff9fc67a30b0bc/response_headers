@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="gcs_bucket_integration"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 05:00:07 GMT
+Etag: W/"847a1aa094ab0ebb281630ae1256d9fd"
+Last-Modified: Sun, 12 Jan 2025 05:00:07 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::svb82-1736658007901-be1902456b50

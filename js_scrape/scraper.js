@@ -3,14 +3,56 @@ const fs = require('fs');
 const process = require('process');
 const { URL } = require('url');
 
-// Function to scrape a single page
+// Function to scrape and clean content from a single page
 async function scrapePage(page, url) {
   await page.goto(url, { waitUntil: 'networkidle2' });
 
-  // Extract content (customize as needed)
+  // Extract and clean content
   const content = await page.evaluate(() => {
-    const body = document.querySelector('body');
-    return body ? body.innerText : 'No content found';
+    // Selectors for meaningful content
+    const selectors = [
+      'h1', 'h2', 'h3', 'h4', 'h5', 'h6', // Headings
+      'p', 'ul', 'ol', 'li', // Paragraphs and lists
+      'pre', 'code', // Code blocks
+      'article', 'section', // Semantic blocks
+      'table', // Tables
+    ];
+
+    // Extract text from selected elements
+    const elements = document.querySelectorAll(selectors.join(', '));
+    let text = Array.from(elements)
+      .map(element => {
+        // Clean up whitespace and trim
+        let content = element.innerText.replace(/\s+/g, ' ').trim();
+
+        // Format headings
+        if (element.tagName.match(/^h[1-6]$/i)) {
+          const level = element.tagName.toLowerCase().replace('h', '');
+          content = '#'.repeat(level) + ' ' + content;
+        }
+
+        // Format code blocks
+        if (element.tagName === 'PRE' || element.tagName === 'CODE') {
+          content = '```\n' + content + '\n```';
+        }
+
+        // Format tables (basic support)
+        if (element.tagName === 'TABLE') {
+          const rows = Array.from(element.querySelectorAll('tr'));
+          content = rows
+            .map(row => {
+              const cells = Array.from(row.querySelectorAll('th, td'));
+              return cells.map(cell => cell.innerText.trim()).join(' | ');
+            })
+            .join('\n');
+        }
+
+        return content;
+      })
+      .filter(content => content.length > 0) // Remove empty lines
+      .join('\n\n'); // Separate sections with double newlines
+
+    return text;
   });
 
   return content;
@@ -33,7 +75,10 @@ async function crawlAndScrape(baseUrl, maxPages = 300) {
 
       console.log(`Scraping: ${currentUrl}`);
       const content = await scrapePage(page, currentUrl);
-      scrapedData.push(`# ${currentUrl}\n\n${content}\n\n---\n`);
+
+      if (content) {
+        scrapedData.push(`# Page: ${currentUrl}\n\n${content}\n\n---\n`);
+      }
 
       // Find all links on the page
       const links = await page.evaluate(() => {

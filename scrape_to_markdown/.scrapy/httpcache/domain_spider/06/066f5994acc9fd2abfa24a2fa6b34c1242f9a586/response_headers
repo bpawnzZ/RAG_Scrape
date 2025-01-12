@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="humanloop"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:53:34 GMT
+Etag: W/"3ca72a0d96177a15bc58636588b1d33c"
+Last-Modified: Sun, 12 Jan 2025 04:53:34 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::9p2t7-1736657613956-369e4af7ae10

@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 2088
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="togetherai"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:51:50 GMT
+Etag: W/"605779161c0bba36cd233e17abcbac18"
+Last-Modified: Sun, 12 Jan 2025 04:17:01 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::ctwxc-1736657510251-9bf9b7809f99

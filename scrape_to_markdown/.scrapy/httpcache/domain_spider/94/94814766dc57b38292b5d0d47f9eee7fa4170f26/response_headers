@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="gradio_integration"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 05:01:15 GMT
+Etag: W/"c1289f1f8034bd20a472e7aefc23412b"
+Last-Modified: Sun, 12 Jan 2025 05:01:15 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::sq74z-1736658075440-45654b085b8e

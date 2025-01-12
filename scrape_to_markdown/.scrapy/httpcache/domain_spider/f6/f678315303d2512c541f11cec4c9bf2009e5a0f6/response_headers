@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="wildcard_routing"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:59:30 GMT
+Etag: W/"bd57e8d0dc70c07245a8131c32d1c66c"
+Last-Modified: Sun, 12 Jan 2025 04:59:30 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::hmqq4-1736657970111-9e7b43ce06e0

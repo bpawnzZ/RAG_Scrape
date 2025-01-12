@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="finetuned_chat_gpt"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 05:01:07 GMT
+Etag: W/"6002e74b8df798c47d92df7bdccbf40b"
+Last-Modified: Sun, 12 Jan 2025 05:01:07 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::rgkvr-1736658067869-a36b8a71923a

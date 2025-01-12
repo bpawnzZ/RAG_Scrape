@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 336
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="vertex"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:56:15 GMT
+Etag: W/"a0c56758601987fc2438c449dd995b3f"
+Last-Modified: Sun, 12 Jan 2025 04:50:38 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::2t2mv-1736657775384-f6b377ed3d1a

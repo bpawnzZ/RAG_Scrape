@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="budgets-rate-limits"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:55:23 GMT
+Etag: W/"5ea9ea8862a8630d67aafb809afef89f"
+Last-Modified: Sun, 12 Jan 2025 04:55:23 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::xfrbx-1736657723725-3efaad43fd1b

@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="fireworks-ai"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:56:47 GMT
+Etag: W/"97747643e114f5d56de6a10d4fd5b74f"
+Last-Modified: Sun, 12 Jan 2025 04:56:46 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::82f4k-1736657806951-b418c87e4800

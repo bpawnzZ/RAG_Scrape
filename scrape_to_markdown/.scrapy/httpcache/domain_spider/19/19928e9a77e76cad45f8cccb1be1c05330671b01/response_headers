@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="lago"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:57:15 GMT
+Etag: W/"fe97469ae4a2626773b0c67fce9edc72"
+Last-Modified: Sun, 12 Jan 2025 04:57:15 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::h5wgt-1736657835325-8ee419f727f2

@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="volcano"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:52:34 GMT
+Etag: W/"da9af2b798a5380515c2440201db8f5d"
+Last-Modified: Sun, 12 Jan 2025 04:52:34 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::4h5cb-1736657554732-a7a0a59c48ac

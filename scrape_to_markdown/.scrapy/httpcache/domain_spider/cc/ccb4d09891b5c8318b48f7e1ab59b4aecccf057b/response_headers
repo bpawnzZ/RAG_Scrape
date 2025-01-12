@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="anthropic"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:56:10 GMT
+Etag: W/"088e9a406865aef4518629eade3e16bb"
+Last-Modified: Sun, 12 Jan 2025 04:56:10 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::tf9pf-1736657770727-564294b6e5c3

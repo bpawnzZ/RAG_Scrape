@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="nvidia_nim"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:55:49 GMT
+Etag: W/"96a177ec9e4b7feb2182b2b5a3026831"
+Last-Modified: Sun, 12 Jan 2025 04:55:49 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::gjpcw-1736657749120-7103f1599862

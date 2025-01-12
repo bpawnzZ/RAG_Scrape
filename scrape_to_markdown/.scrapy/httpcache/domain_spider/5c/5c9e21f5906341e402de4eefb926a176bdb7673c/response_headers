@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="instructor"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 05:01:19 GMT
+Etag: W/"7f2d660dd241c1e203d31645d0a26e9e"
+Last-Modified: Sun, 12 Jan 2025 05:01:19 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::sq7mw-1736658079154-a2e87af433f9

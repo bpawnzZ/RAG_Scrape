@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="new_rerank_provider"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 05:00:56 GMT
+Etag: W/"8b29172afd88dd67176c7a7e7dd4d199"
+Last-Modified: Sun, 12 Jan 2025 05:00:56 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::2t2mv-1736658056932-cf19a3669810

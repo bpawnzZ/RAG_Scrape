@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="code_quality"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:54:07 GMT
+Etag: W/"9eef6b4d39d253c86910be854ca5987e"
+Last-Modified: Sun, 12 Jan 2025 04:54:07 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::9xbrt-1736657647382-46888e6f0c74

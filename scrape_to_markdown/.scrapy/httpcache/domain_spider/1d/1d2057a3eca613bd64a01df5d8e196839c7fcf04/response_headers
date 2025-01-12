@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="team_budgets"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:50:25 GMT
+Etag: W/"bda5c875c3b8768d9e75c27bce4a5346"
+Last-Modified: Sun, 12 Jan 2025 04:50:25 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::fs87d-1736657425780-8a805dd5a35b

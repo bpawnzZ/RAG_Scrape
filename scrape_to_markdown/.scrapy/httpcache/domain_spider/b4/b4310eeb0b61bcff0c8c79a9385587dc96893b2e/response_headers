@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 1133
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="lunary_integration"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:57:03 GMT
+Etag: W/"529e59f2b3ceb84b2deebcbd4815a995"
+Last-Modified: Sun, 12 Jan 2025 04:38:09 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::8qf6b-1736657823132-6e3ef273ef31

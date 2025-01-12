@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="deepgram"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:58:29 GMT
+Etag: W/"8df90bbe14ee9533f577b24d0ace5040"
+Last-Modified: Sun, 12 Jan 2025 04:58:29 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::jnq8d-1736657909357-03f141dc5f8d

@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="provider_budget_routing"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:59:33 GMT
+Etag: W/"6eb5ac5696d1899eb1951746f67aa2a0"
+Last-Modified: Sun, 12 Jan 2025 04:59:33 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::hmqq4-1736657972973-db1aedb1bfa6

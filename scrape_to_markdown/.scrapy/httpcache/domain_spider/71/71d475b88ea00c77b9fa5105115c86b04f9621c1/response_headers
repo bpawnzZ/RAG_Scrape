@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="management-endpoints"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:53:24 GMT
+Etag: W/"8ad9db92425190f8b158832dd62e7671"
+Last-Modified: Sun, 12 Jan 2025 04:53:24 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::6z7zf-1736657604615-711aef04eefb

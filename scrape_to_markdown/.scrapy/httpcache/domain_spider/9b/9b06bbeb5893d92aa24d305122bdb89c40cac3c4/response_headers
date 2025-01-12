@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="lakera_ai"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:56:30 GMT
+Etag: W/"eab312acc0ee5d245433f93da383be4b"
+Last-Modified: Sun, 12 Jan 2025 04:56:30 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::nrdxz-1736657790237-898f2f4a02fa

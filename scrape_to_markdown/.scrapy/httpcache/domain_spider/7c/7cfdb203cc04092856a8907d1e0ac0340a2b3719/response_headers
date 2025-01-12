@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="custom_sso"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:53:53 GMT
+Etag: W/"1512622247ce03c6b50cdaeecb932a28"
+Last-Modified: Sun, 12 Jan 2025 04:53:53 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::fjl88-1736657633634-3220ded33985

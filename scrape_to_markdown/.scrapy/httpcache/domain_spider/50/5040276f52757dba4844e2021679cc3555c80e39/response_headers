@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="PROMPTMETHEUS"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:54:41 GMT
+Etag: W/"a2427c425f4e6fa63330caacb695a40b"
+Last-Modified: Sun, 12 Jan 2025 04:54:41 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::v4rvb-1736657681282-9b96844d1c37

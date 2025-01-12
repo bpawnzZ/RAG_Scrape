@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="finetuning"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:53:17 GMT
+Etag: W/"e3e1f8a7742bfdebfd5e68ed18360966"
+Last-Modified: Sun, 12 Jan 2025 04:53:17 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::gs47c-1736657597657-4f67690062a4

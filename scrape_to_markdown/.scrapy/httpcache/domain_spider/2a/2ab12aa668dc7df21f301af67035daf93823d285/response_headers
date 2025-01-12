@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="greenscale_integration"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:57:00 GMT
+Etag: W/"8a110572b226ba0f0841fbc7835a2ace"
+Last-Modified: Sun, 12 Jan 2025 04:57:00 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::8qf6b-1736657820641-c9a21fd054df

@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="multiple_admins"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 05:00:29 GMT
+Etag: W/"af8a5d7d16ceb6da67651245042b7883"
+Last-Modified: Sun, 12 Jan 2025 05:00:29 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::4h5cb-1736658029848-b99451e3c2b1

@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="galadriel"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:52:24 GMT
+Etag: W/"2bfcfff1cb96bdd01d95d92068994aff"
+Last-Modified: Sun, 12 Jan 2025 04:52:24 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::9kvfm-1736657544934-aa124bb97751

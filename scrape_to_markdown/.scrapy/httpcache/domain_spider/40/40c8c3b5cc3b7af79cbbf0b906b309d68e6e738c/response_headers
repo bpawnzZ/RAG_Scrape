@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="langfuse"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:57:31 GMT
+Etag: W/"12331cfc9d1b73dedaa4d2cda98f6fe1"
+Last-Modified: Sun, 12 Jan 2025 04:57:31 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::8sl7g-1736657851703-ad07a5cbbff8

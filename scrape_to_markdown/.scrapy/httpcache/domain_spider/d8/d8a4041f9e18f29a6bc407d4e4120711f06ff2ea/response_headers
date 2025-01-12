@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="dependency-upgrades"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:56:39 GMT
+Etag: W/"7a33cbdd0038cfc2391da311531b5c82"
+Last-Modified: Sun, 12 Jan 2025 04:56:39 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::8qf6b-1736657799043-de264ce4da92

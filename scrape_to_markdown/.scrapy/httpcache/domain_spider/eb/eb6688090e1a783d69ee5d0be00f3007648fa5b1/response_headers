@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="tag_routing"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:59:35 GMT
+Etag: W/"5d1fbe7304531ffe1937f40b63221dcc"
+Last-Modified: Sun, 12 Jan 2025 04:59:35 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::ghpwz-1736657975114-3f54f01f637a

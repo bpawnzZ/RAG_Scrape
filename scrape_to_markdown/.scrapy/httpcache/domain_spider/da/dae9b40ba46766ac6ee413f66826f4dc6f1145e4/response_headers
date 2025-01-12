@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="cloudflare_workers"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:52:03 GMT
+Etag: W/"5ca40b4208f271df5f5fc51108ab7085"
+Last-Modified: Sun, 12 Jan 2025 04:52:03 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::8pqdb-1736657523593-796bf5d097b7

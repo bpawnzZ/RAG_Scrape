@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 144
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="ollama"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:52:31 GMT
+Etag: W/"b20650db099bbe474159beb5bbd1bf61"
+Last-Modified: Sun, 12 Jan 2025 04:50:07 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::tm928-1736657551947-c32651df4309

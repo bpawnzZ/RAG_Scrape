@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="opik_integration"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:56:54 GMT
+Etag: W/"09697e4ed4d26ccd535c67b1c812afc3"
+Last-Modified: Sun, 12 Jan 2025 04:56:54 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::7grcd-1736657813947-279dbfe5991a

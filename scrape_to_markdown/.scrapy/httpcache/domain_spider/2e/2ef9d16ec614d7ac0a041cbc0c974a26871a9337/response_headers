@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="sambanova"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:51:35 GMT
+Etag: W/"74bc4e81aa011d1f0f386c8415d14de5"
+Last-Modified: Sun, 12 Jan 2025 04:51:35 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::tvtbt-1736657495021-30c224915fcc

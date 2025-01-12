@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="triton-inference-server"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:55:04 GMT
+Etag: W/"f17a95b2246f5df4b30d0afa36e599f4"
+Last-Modified: Sun, 12 Jan 2025 04:55:04 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::65vn9-1736657704035-ff1e55bfeb28

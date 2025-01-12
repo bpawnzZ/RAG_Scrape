@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="docker-image"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:53:08 GMT
+Etag: W/"a780e879ab65d638b9479e6ff4cbd432"
+Last-Modified: Sun, 12 Jan 2025 04:53:08 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::7jb9s-1736657588184-8621c6958be9

@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="supabase_integration"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:56:58 GMT
+Etag: W/"2e491d6aec51e03c4139f3d9aabe13eb"
+Last-Modified: Sun, 12 Jan 2025 04:56:58 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::8qf6b-1736657818208-0b606680324a

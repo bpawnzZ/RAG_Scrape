@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="guardrails"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:56:37 GMT
+Etag: W/"cde91fbc41339a8009b1822748bbc140"
+Last-Modified: Sun, 12 Jan 2025 04:56:37 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::95fgp-1736657797164-ed6e56f3772d

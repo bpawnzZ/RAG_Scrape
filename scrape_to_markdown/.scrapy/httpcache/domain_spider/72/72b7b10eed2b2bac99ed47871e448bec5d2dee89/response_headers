@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="secret_detection"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:56:26 GMT
+Etag: W/"2ae7e485c68119de9b0a6d03b00765ab"
+Last-Modified: Sun, 12 Jan 2025 04:56:26 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::ct4nw-1736657786552-c23b7b1ee27e

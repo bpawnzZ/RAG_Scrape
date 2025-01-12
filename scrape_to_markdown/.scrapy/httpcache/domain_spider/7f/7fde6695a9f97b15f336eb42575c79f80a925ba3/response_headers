@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="sdk_custom_pricing"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 05:01:35 GMT
+Etag: W/"9fa1e2c64e172c924a511c4dd122ff13"
+Last-Modified: Sun, 12 Jan 2025 05:01:35 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::cmwfd-1736658095250-fa3731f7b403

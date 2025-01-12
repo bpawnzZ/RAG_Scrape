@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="token_auth"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 05:00:48 GMT
+Etag: W/"65d39e5c83a96ab55663422c657f8ca0"
+Last-Modified: Sun, 12 Jan 2025 05:00:48 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::wx4zz-1736658048288-77bfb4d5aeef

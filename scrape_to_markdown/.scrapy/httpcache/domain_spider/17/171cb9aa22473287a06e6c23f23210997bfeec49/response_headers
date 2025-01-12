@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="pagerduty"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:58:19 GMT
+Etag: W/"8388a233142e86371aa01ad875966f4c"
+Last-Modified: Sun, 12 Jan 2025 04:58:19 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::l64qs-1736657898983-2a9a77dc42e2

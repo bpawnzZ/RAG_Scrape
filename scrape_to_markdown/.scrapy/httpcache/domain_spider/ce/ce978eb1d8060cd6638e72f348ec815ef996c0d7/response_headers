@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="prometheus"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:58:16 GMT
+Etag: W/"088c529dbcae321af99121d7345d6567"
+Last-Modified: Sun, 12 Jan 2025 04:58:16 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::ghpwz-1736657896762-8f204d73264b

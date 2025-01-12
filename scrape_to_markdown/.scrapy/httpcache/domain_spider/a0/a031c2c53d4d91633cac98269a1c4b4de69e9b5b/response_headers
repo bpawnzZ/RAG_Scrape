@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="cohere"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:55:59 GMT
+Etag: W/"2193ff1ecb55b2e35a5d48bd522696f4"
+Last-Modified: Sun, 12 Jan 2025 04:55:59 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::qvgwr-1736657759767-8fde87e357f5

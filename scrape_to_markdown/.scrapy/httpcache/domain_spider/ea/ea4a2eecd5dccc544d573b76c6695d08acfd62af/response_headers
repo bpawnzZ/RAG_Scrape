@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="team_logging"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:57:58 GMT
+Etag: W/"01991b992b4a4448d8ce337c0045a5ea"
+Last-Modified: Sun, 12 Jan 2025 04:57:58 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::sjjh2-1736657877981-8e7fb1f55fe7

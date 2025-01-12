@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="databricks"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:55:54 GMT
+Etag: W/"5c53e50e8a0c1b1f422a4a58a55b4c82"
+Last-Modified: Sun, 12 Jan 2025 04:55:54 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::ctszk-1736657754442-5700b3cae65e

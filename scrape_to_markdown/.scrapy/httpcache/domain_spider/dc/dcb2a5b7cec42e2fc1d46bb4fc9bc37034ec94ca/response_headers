@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="huggingface_tutorial"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 05:01:11 GMT
+Etag: W/"db2d5c3bdf1d73162c0491007b741dcc"
+Last-Modified: Sun, 12 Jan 2025 05:01:11 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::plvhn-1736658071050-2d63fc1fad99

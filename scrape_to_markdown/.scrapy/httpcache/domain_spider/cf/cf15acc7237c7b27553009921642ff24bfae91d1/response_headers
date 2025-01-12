@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="aleph_alpha"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:51:42 GMT
+Etag: W/"9cdaec9ab6176ee9379017314461d5ce"
+Last-Modified: Sun, 12 Jan 2025 04:51:42 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::gj6wq-1736657502237-5639624cef1b

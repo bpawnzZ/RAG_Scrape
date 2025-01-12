@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="YiVal"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:54:19 GMT
+Etag: W/"bb928dec051c0f25662df5013a7a1c95"
+Last-Modified: Sun, 12 Jan 2025 04:54:19 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::hq28b-1736657658953-d7ef07b670fa

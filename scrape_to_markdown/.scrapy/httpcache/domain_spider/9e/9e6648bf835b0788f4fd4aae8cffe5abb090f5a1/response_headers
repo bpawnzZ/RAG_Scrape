@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="literalai_integration"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 05:00:03 GMT
+Etag: W/"9320d2406f6d097b35690b2abc3c597e"
+Last-Modified: Sun, 12 Jan 2025 05:00:03 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::wn5cs-1736658003629-4294e0737ff1

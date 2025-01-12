@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="groq"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:52:22 GMT
+Etag: W/"d3650a5d38f98a4633752024b66abe4f"
+Last-Modified: Sun, 12 Jan 2025 04:52:22 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::bk62v-1736657542151-52c58edabebe

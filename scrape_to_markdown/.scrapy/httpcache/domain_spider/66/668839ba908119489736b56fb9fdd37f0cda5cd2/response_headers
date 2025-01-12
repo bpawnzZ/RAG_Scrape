@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="bedrock"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:56:49 GMT
+Etag: W/"f1bd1a6ee83a204808d6ae0292df278c"
+Last-Modified: Sun, 12 Jan 2025 04:56:49 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::jv8ks-1736657809871-3faaaa2ebe95

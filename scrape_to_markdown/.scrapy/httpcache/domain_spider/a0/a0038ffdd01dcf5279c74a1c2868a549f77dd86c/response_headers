@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="installation"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 05:01:41 GMT
+Etag: W/"da637b75d1c0e99e7cc7189bb9f4e411"
+Last-Modified: Sun, 12 Jan 2025 05:01:41 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::x7675-1736658101124-2ab61f2d1a05

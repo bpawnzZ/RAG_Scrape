@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="text_to_speech"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:59:53 GMT
+Etag: W/"138ba8e4fa533b1cf59f79488077dc5c"
+Last-Modified: Sun, 12 Jan 2025 04:59:53 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::952kt-1736657992981-7b17c197a8f4

@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="call_hooks"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:59:50 GMT
+Etag: W/"f7a8578daea48d9e64e1d16e88e4e76c"
+Last-Modified: Sun, 12 Jan 2025 04:59:50 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::8xqxv-1736657990793-520edb2a6688

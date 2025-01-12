@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="text_completion_openai"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:56:22 GMT
+Etag: W/"07730f59e403a58cbf28a1b7d33829ad"
+Last-Modified: Sun, 12 Jan 2025 04:56:22 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::95fgp-1736657782342-250f2ab775bc

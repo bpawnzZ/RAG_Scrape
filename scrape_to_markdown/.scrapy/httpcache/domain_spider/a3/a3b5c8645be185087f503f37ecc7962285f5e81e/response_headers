@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="user_management_heirarchy"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:55:16 GMT
+Etag: W/"1a77127ca859013afc09478eafe2aa07"
+Last-Modified: Sun, 12 Jan 2025 04:55:16 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::sjtnv-1736657716198-0b8d08623021

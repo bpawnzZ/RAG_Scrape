@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="baseten"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:51:39 GMT
+Etag: W/"56ba5acbb15b00fb8c46bd4472d9e00c"
+Last-Modified: Sun, 12 Jan 2025 04:51:39 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::7jb9s-1736657499390-ae594c80cbde

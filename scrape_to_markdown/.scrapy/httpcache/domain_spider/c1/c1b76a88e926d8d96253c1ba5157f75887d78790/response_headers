@@ -1,0 +1,13 @@
+Access-Control-Allow-Origin: *
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Content-Disposition: inline; filename="litellm_proxy"
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 04:56:06 GMT
+Etag: W/"20db52f0ac94e7e08b839187381ff8fc"
+Last-Modified: Sun, 12 Jan 2025 04:56:06 GMT
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::5q2ns-1736657766349-1ae8315306f4
