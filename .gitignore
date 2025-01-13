@@ -104,3 +104,4 @@ Thumbs.db
 *.db
 *.dump
 *.stackdump
+scrape_github/config.ini
