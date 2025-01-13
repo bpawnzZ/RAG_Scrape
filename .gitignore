@@ -1,146 +1,106 @@
-js_scrape/node_modules/*
-js_scrape/node_modules/output
-.aider*
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.python-version
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+dist/
+dist-ssr/
+/coverage
+/.nyc_output
+
+# Project outputs
+scrape_github/repos/
+scrape_to_markdown/output*
+scrape_to_markdown/scrape_to_markdown/output*
+
+# Environment files
 .env
- __pycache__/                                                                                                      
- *.py[cod]                                                                                                         
- *$py.class                                                                                                        
- *.so                                                                                                              
- .Python                                                                                                           
- build/                                                                                                            
- develop-eggs/                                                                                                     
- dist/                                                                                                             
- downloads/                                                                                                        
- eggs/                                                                                                             
- .eggs/                                                                                                            
- lib/                                                                                                              
- lib64/                                                                                                            
- parts/                                                                                                            
- sdist/                                                                                                            
- var/                                                                                                              
- wheels/                                                                                                           
- *.egg-info/                                                                                                       
- .installed.cfg                                                                                                    
- *.egg                                                                                                             
- MANIFEST                                                                                                          
- .pytest_cache/                                                                                                    
- .venv/                                                                                                            
- venv/                                                                                                             
- env/                                                                                                              
- ENV/                                                                                                              
- env.bak/                                                                                                          
- venv.bak/                                                                                                         
- pip-log.txt                                                                                                       
- pip-delete-this-directory.txt                                                                                     
- .tox/                                                                                                             
- .coverage                                                                                                         
- .coverage.*                                                                                                       
- .cache                                                                                                            
- nosetests.xml                                                                                                     
- coverage.xml                                                                                                      
- *.cover                                                                                                           
- *.py,cover                                                                                                        
- .hypothesis/                                                                                                      
- .python-version                                                                                                   
-                                                                                                                   
- # Node.js                                                                                                         
- node_modules/                                                                                                     
- npm-debug.log*                                                                                                    
- yarn-debug.log*                                                                                                   
- yarn-error.log*                                                                                                   
- .pnpm-debug.log*                                                                                                  
- lerna-debug.log*                                                                                                  
- .DS_Store                                                                                                         
- dist/                                                                                                             
- dist-ssr/                                                                                                         
- *.local                                                                                                           
- /coverage                                                                                                         
- /.nyc_output                                                                                                      
- /.env                                                                                                             
- /.env.*
- !.env.example
- scrape_github/config.ini
- /.vscode
- /.idea
- /.cache                                                                                                           
- /.svelte-kit                                                                                                      
- /.output                                                                                                          
- /.vercel                                                                                                          
- /.next                                                                                                            
- /.nuxt                                                                                                            
- /.cache/                                                                                                          
- /.temp/                                                                                                           
- /.serverless/                                                                                                     
- /.fusebox/                                                                                                        
- /.dynamodb/                                                                                                       
- /.eslintcache                                                                                                     
- /.parcel-cache                                                                                                    
- /.yarn/cache                                                                                                      
- /.yarn/unplugged                                                                                                  
- /.yarn/build-state.yml                                                                                            
- /.yarn/install-state.gz                                                                                           
- .pnp.*                                                                                                            
-                                                                                                                   
- # General                                                                                                         
-  .aider*                                                                                                           
-  .env                                                                                                              
- .DS_Store                                                                                                         
- Thumbs.db                                                                                                         
- *.log                                                                                                             
- *.swp                                                                                                             
- *.swo                                                                                                             
- *~                                                                                                                
- *.bak                                                                                                             
- *.tmp                                                                                                             
- *.pid                                                                                                             
- *.seed                                                                                                            
- *.pid.lock                                                                                                        
- *.sublime-workspace                                                                                               
- *.sublime-project                                                                                                 
- .idea/                                                                                                            
- .vscode/                                                                                                          
- *.suo                                                                                                             
- *.ntvs*                                                                                                           
- *.njsproj                                                                                                         
- *.sln                                                                                                             
- *.sw?                                                                                                             
- *.iml                                                                                                             
- *.ipr                                                                                                             
- *.iws                                                                                                             
- *.bak                                                                                                             
- *.orig                                                                                                            
- *.rej                                                                                                             
- *.sublime-project                                                                                                 
- *.sublime-workspace                                                                                               
- *.tags*                                                                                                           
- *.tags1                                                                                                           
- *.un~                                                                                                             
- *.zip                                                                                                             
- *.tgz                                                                                                             
- *.tar.gz                                                                                                          
- *.rar                                                                                                             
- *.7z                                                                                                              
- *.gz                                                                                                              
- *.log                                                                                                             
- *.sql                                                                                                             
- *.sqlite                                                                                                          
- *.db                                                                                                              
- *.dump                                                                                                            
- *.stackdump                                                                                                       
- *.pid
- 
- # Project-specific output directories
- scrape_github/repos/
- scrape_to_markdown/output.md
- scrape_to_markdown/scrape_to_markdown/output.json
- scrape_to_markdown/scrape_to_markdown/output.md
- 
- # Personal files
- *.local
- *.env.local
- *.env.*
- *.bak
- 
- # Editor files
- .vscode/
- .idea/
+.env.*
+!.env.example
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.iml
+*.ipr
+*.iws
+
+# Temp files
+*.log
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+*.pid
+*.seed
+*.pid.lock
+*.sublime-workspace
+*.sublime-project
+*.tags*
+*.tags1
+*.un~
+*.zip
+*.tgz
+*.tar.gz
+*.rar
+*.7z
+*.gz
+*.sql
+*.sqlite
+*.db
+*.dump
+*.stackdump

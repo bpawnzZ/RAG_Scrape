@@ -1,0 +1,29 @@
+
+# 2025-01-04 16:54:32.050989
++inside this repo are the two different ways that i currently scrape webisdes and github for RAG. if you cd to 'scrape_to_markdown' you run './run_spider.sh https://docs.openwebui.com' or whatever site you want to scrape. and if you cd into scrape github you run the following to scrape 'python scripts/github_scraper.py https://github.com/bpawnzZ/Perplexica-Cli --token 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' except substitute for your github token.  Write u a detailed README detailing how to use based off what i said above. feel free to add any relevant info you think should be included
+
+# 2025-01-04 16:54:36.560924
++N
+
+# 2025-01-04 16:55:54.981574
++inside this repo are the two different ways that i currently scrape webisdes and github for RAG. if you cd to 'scr
++ape_to_markdown' you run './run_spider.sh https://docs.openwebui.com' or whatever site you want to scrape. and if yo
++u cd into scrape github you run the following to scrape 'python scripts/github_scraper.py https://github.com/bpawnzZ
++/Perplexica-Cli --token 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' except substitute for your github token.  Write u 
++a detailed README detailing how to use based off what i said above. feel free to add any relevant info you think sho
++uld be included
+
+# 2025-01-04 16:55:57.197428
++N
+
+# 2025-01-04 20:04:03.936744
++modify/update README.md
+
+# 2025-01-04 20:05:30.304221
++modify readme to add into about .js_scrape which is used by running 'node scraper.js https://docs.ccxt.com/' or any example url.  add this and whatever other important details you think should be added
+
+# 2025-01-04 20:05:34.776190
++N
+
+# 2025-01-04 20:08:06.781223
++make sure my .gitignore is ignoring what it should
