@@ -1,0 +1,14 @@
+Content-Length: 44
+Date: Sun, 12 Jan 2025 05:21:52 GMT
+Content-Type: text/plain;charset=UTF-8
+Location: /latest/concepts/dataclasses/
+Access-Control-Allow-Origin: *
+Referrer-Policy: strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=ZtU3nSLAYZvQ0CNPCY7Ey2vjzIjDHJsZNOLi9YWQXCCmrQ0w0cPbIr8uTdrbCywiUwcAlpeRcvH%2FTcfdhj2sA4v%2BuyFQkMCV9j83koQ8INUCvB6d4TQKpEq%2Bq0qBHieRJ9n0Zw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Cf-Cache-Status: DYNAMIC
+Server: cloudflare
+Cf-Ray: 900ab49d1e31ad8c-ATL
+Server-Timing: cfL4;desc="?proto=TCP&rtt=1116&min_rtt=1060&rtt_var=31&sent=2160&recv=2185&lost=0&retrans=0&sent_bytes=1821493&recv_bytes=58117&delivery_rate=5153583&cwnd=257&unsent_bytes=0&cid=8d394eb2d4387d79&ts=327175&x=0"

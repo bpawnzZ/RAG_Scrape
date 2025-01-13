@@ -57,10 +57,11 @@ js_scrape/node_modules/output
  /coverage                                                                                                         
  /.nyc_output                                                                                                      
  /.env                                                                                                             
- /.env.*                                                                                                           
- !.env.example                                                                                                     
- /.vscode                                                                                                          
- /.idea                                                                                                            
+ /.env.*
+ !.env.example
+ scrape_github/config.ini
+ /.vscode
+ /.idea
  /.cache                                                                                                           
  /.svelte-kit                                                                                                      
  /.output                                                                                                          
@@ -126,4 +127,20 @@ js_scrape/node_modules/output
  *.db                                                                                                              
  *.dump                                                                                                            
  *.stackdump                                                                                                       
- *.pid 
+ *.pid
+ 
+ # Project-specific output directories
+ scrape_github/repos/
+ scrape_to_markdown/output.md
+ scrape_to_markdown/scrape_to_markdown/output.json
+ scrape_to_markdown/scrape_to_markdown/output.md
+ 
+ # Personal files
+ *.local
+ *.env.local
+ *.env.*
+ *.bak
+ 
+ # Editor files
+ .vscode/
+ .idea/

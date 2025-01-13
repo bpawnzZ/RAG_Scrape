@@ -9,15 +9,41 @@ def clone_repo(repo_url: str, target_dir: Path) -> Path:
     """Clone repository and return path to cloned directory"""
     try:
         print(f"Cloning repository: {repo_url}")
+        
+        # Verify URL format
+        if not re.match(r'^https://github\.com/[^/]+/[^/]+(\.git)?$', repo_url):
+            raise ValueError(f"Invalid GitHub repository URL format: {repo_url}")
+            
         repo_dir = target_dir / repo_url.split('/')[-1].replace('.git', '')
-        git.Repo.clone_from(repo_url, repo_dir)
+        
+        # Check if we can write to target directory
+        if not os.access(target_dir, os.W_OK):
+            raise PermissionError(f"Cannot write to directory: {target_dir}")
+            
+        # Clone with progress
+        print("Cloning...")
+        repo = git.Repo.clone_from(repo_url, repo_dir, progress=git.remote.RemoteProgress())
+        print("Clone successful")
         return repo_dir
+    except git.exc.GitCommandError as e:
+        print(f"Git command failed: {e.stderr}")
+        sys.exit(1)
     except Exception as e:
-        print(f"Error cloning repository: {e}")
+        print(f"Error: {str(e)}")
         sys.exit(1)
 
 def process_file(file_path: Path) -> str:
     """Process individual file content for RAG optimization"""
+    # Skip binary files and .git directories
+    binary_extensions = {'.png', '.jpg', '.jpeg', '.gif', '.bmp', '.ico',
+                        '.svg', '.webp', '.mp3', '.mp4', '.wav', '.exe',
+                        '.dll', '.so', '.bin', '.zip', '.tar', '.gz',
+                        '.ttf', '.otf', '.woff', '.woff2', '.eot', '.ds_store',
+                        '.DS_Store'}  # Add both lowercase and uppercase versions
+    
+    if file_path.suffix.lower() in {ext.lower() for ext in binary_extensions} or '.git' in file_path.parts:
+        return ""
+    
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             content = f.read()

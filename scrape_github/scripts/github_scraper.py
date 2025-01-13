@@ -3,9 +3,14 @@ import requests
 import argparse
 import time
 import logging
+import configparser
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
+
+# Load configuration
+config = configparser.ConfigParser()
+config.read(os.path.join(os.path.dirname(__file__), '../../config.ini'))
 
 # Supported file extensions
 SUPPORTED_EXTENSIONS = {
@@ -138,7 +143,7 @@ def fetch_repo_contents(owner, repo, output_dir, token=None, max_workers=4, max_
 def main():
     parser = argparse.ArgumentParser(description="Scrape a GitHub repository and download its contents.")
     parser.add_argument("url", help="GitHub repository URL")
-    parser.add_argument("--token", help="GitHub token for higher rate limits", default="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")
+    parser.add_argument("--token", help="GitHub token for higher rate limits", default=config['github']['token'])
     args = parser.parse_args()
 
     # Extract owner and repo from URL

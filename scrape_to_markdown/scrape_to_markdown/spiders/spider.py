@@ -21,15 +21,22 @@ class DomainSpider(CrawlSpider):
 
     rules = (
         Rule(LinkExtractor(
-            allow=(r'.*docs\.litellm\.ai.*',),
             deny_extensions=['pdf', 'jpg', 'png', 'gif', 'zip', 'exe', 'mp3', 'mp4'],
-            restrict_xpaths=['//nav', '//main', '//article'],
+            restrict_xpaths=['//nav', '//main', '//article', '//div[contains(@class, "content")]'],
             tags=['a', 'area'],
             attrs=['href'],
             canonicalize=True,
             unique=True
         ), callback='parse_item', follow=True),
     )
+    
+    custom_settings = {
+        'DEFAULT_REQUEST_HEADERS': {
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.5',
+        },
+        'DEPTH_LIMIT': 3
+    }
 
     def parse_item(self, response):
         # Skip if URL already visited

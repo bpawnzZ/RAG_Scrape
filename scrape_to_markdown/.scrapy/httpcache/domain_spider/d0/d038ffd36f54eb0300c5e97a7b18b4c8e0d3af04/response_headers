@@ -1,0 +1,13 @@
+Age: 21098
+Cache-Control: public, max-age=0, must-revalidate
+Content-Encoding: br
+Content-Type: text/html; charset=utf-8
+Date: Sun, 12 Jan 2025 00:22:31 GMT
+Etag: W/"wdtru94qyv3f9y"
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Frame-Options: DENY
+X-Matched-Path: /_sites/[subdomain]/[[...slug]]
+X-Powered-By: Next.js
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::iad1::8nwtx-1736662450175-5d0cd0897396

@@ -1,0 +1,14 @@
+Content-Length: 40
+Date: Sun, 12 Jan 2025 05:32:39 GMT
+Content-Type: text/plain;charset=UTF-8
+Location: /latest/blog/pydantic-v2/
+Access-Control-Allow-Origin: *
+Referrer-Policy: strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=XnpTq5IyjUYJTVzFYWtyzAOr0sBiXMRumtRDb9u%2BUjL%2FM6AiuM7bAfYVIoAjfe3pau68jY1nt0z1gS%2Fasd7P6JL61z3IZEMGfPvqYKTBjcRixKxkkqTXTzoCQV35wKd2%2Bu35cw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Cf-Cache-Status: DYNAMIC
+Server: cloudflare
+Cf-Ray: 900ac467fab97bc0-ATL
+Server-Timing: cfL4;desc="?proto=TCP&rtt=1203&min_rtt=1069&rtt_var=36&sent=1675&recv=1688&lost=0&retrans=0&sent_bytes=1476969&recv_bytes=46382&delivery_rate=9553602&cwnd=240&unsent_bytes=0&cid=e36bde1998378290&ts=526024&x=0"

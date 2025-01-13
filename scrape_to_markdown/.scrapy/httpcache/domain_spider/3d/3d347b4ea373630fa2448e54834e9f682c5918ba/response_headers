@@ -1,0 +1,14 @@
+Content-Length: 41
+Date: Sun, 12 Jan 2025 05:17:23 GMT
+Content-Type: text/plain;charset=UTF-8
+Location: /latest/hypothesis_plugin/
+Access-Control-Allow-Origin: *
+Referrer-Policy: strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=ruITXro0nD7TpRZNUzqDnqAK234W4EyVCWX%2BoPXOsc8rZKSYCvp1D600PEjRjPelB9LHuvdiLku3mWRS3kOPB5JiBkN%2FbaSQ0tVy9c%2BagvVWqyWOwEiXByfV%2BZv5P%2Fw1dg%2BFog%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Cf-Cache-Status: DYNAMIC
+Server: cloudflare
+Cf-Ray: 900aae0abb04ad8c-ATL
+Server-Timing: cfL4;desc="?proto=TCP&rtt=1152&min_rtt=1058&rtt_var=35&sent=440&recv=456&lost=0&retrans=0&sent_bytes=389793&recv_bytes=10192&delivery_rate=8238704&cwnd=257&unsent_bytes=0&cid=8d394eb2d4387d79&ts=57989&x=0"

@@ -22,9 +22,9 @@ Scrapes website content and converts it to markdown format.
 
 2. Run the scraper:
    ```bash
-   ./run_spider.sh https://example.com
+   scrapy crawl domain_spider -a start_url="https://docs.pydantic.dev/latest/"
    ```
-   Replace `https://example.com` with the website URL you want to scrape.
+   Replace the URL with the website you want to scrape.
 
 ### Output
 - Scraped content will be saved in markdown format
@@ -47,11 +47,9 @@ Scrapes GitHub repository contents including code files and documentation.
 
 2. Run the scraper:
    ```bash
-   python scripts/github_scraper.py https://github.com/owner/repo --token YOUR_GITHUB_TOKEN
+   python scripts/github_rag_scraper.py https://github.com/ccxt/ccxt.git
    ```
-   Replace:
-   - `https://github.com/owner/repo` with the GitHub repository URL
-   - `YOUR_GITHUB_TOKEN` with your personal access token
+   Replace the repository URL with the GitHub repository you want to scrape.
 
 ### Output
 - Repository contents will be saved in markdown format
@@ -73,14 +71,9 @@ Scrapes website content using Puppeteer and saves it as markdown.
 
 2. Run the scraper:
    ```bash
-   node scraper.js https://example.com
+   node /home/insomnia/scraper_fixed.js "https://docs.ccxt.com/#/?id=user-defined-clientorderid"
    ```
-   Replace `https://example.com` with the website URL you want to scrape.
-
-   Example:
-   ```bash
-   node scraper.js https://docs.ccxt.com/
-   ```
+   Replace the URL with the website URL you want to scrape.
 
 ### Features
 - Crawls up to 300 pages by default

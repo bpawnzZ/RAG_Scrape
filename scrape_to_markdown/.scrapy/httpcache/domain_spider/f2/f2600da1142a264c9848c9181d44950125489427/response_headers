@@ -1,0 +1,12 @@
+Content-Length: 13
+Age: 20636
+Cache-Control: public, max-age=0, must-revalidate
+Date: Sun, 12 Jan 2025 00:21:51 GMT
+Location: /introduction
+Refresh: 0;url=/introduction
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Frame-Options: DENY
+X-Matched-Path: /_sites/[subdomain]/[[...slug]]
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::iad1::fgv44-1736661948003-917b015b98ff
