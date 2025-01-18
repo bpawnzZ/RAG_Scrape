@@ -63,6 +63,17 @@ class DomainSpider(CrawlSpider):
             for element in soup(['script', 'style', 'nav', 'footer', 'header', 'aside', 'iframe', 'form']):
                 element.decompose()
 
+            # Extract image URLs
+            image_urls = []
+            for img in soup.find_all('img'):
+                src = img.get('src')
+                if src:
+                    if src.startswith('//'):
+                        src = f'https:{src}'
+                    elif src.startswith('/'):
+                        src = f'{response.urljoin(src)}'
+                    image_urls.append(src)
+
             # Convert the cleaned HTML to Markdown
             cleaned_html = str(soup)
             markdown_content = markdownify.markdownify(cleaned_html, heading_style="ATX")
@@ -75,7 +86,8 @@ class DomainSpider(CrawlSpider):
             item = {
                 'url': response.url,
                 'title': title,
-                'content': markdown_content
+                'content': markdown_content,
+                'image_urls': image_urls
             }
             
             self.logger.info(f"Successfully processed: {response.url}")

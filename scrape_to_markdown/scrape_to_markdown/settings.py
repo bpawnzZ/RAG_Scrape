@@ -8,7 +8,17 @@ ROBOTSTXT_OBEY = False
 
 # Enable the pipeline
 ITEM_PIPELINES = {
+    'scrapy.pipelines.images.ImagesPipeline': 1,
     'scrape_to_markdown.pipelines.MarkdownPipeline': 300,
+}
+
+# Configure image pipeline
+IMAGES_STORE = 'images'
+IMAGES_URLS_FIELD = 'image_urls'
+IMAGES_RESULT_FIELD = 'images'
+IMAGES_THUMBS = {
+    'small': (50, 50),
+    'big': (270, 270),
 }
 
 # Configure retry middleware
