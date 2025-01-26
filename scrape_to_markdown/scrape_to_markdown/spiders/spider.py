@@ -48,7 +48,26 @@ class DomainSpider(CrawlSpider):
         self.logger.info(f"Processing URL: {response.url}")
         
         try:
-            # Extract the title and content of the page
+            # Handle JSON responses
+            if 'application/json' in response.headers.get('Content-Type', b'').decode('utf-8'):
+                try:
+                    json_data = response.json()
+                    item = {
+                        'url': response.url,
+                        'title': json_data.get('title', json_data.get('name', 'Untitled JSON Document')),
+                        'content': json.dumps(json_data, indent=2),
+                        'image_urls': []
+                    }
+                    self.logger.info(f"Successfully processed JSON: {response.url}")
+                    return item
+                except ValueError as e:
+                    self.logger.error(f"Error parsing JSON at {response.url}: {str(e)}")
+                    return {
+                        'url': response.url,
+                        'error': f"Invalid JSON: {str(e)}"
+                    }
+
+            # Handle HTML responses
             title = response.css('title::text').get()
             html_content = response.css('body').get()
 

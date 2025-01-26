@@ -104,5 +104,7 @@ Thumbs.db
 *.db
 *.dump
 *.stackdump
+# Aider history files
+.aider.*
 scrape_github/config.ini
 scrape_github/repos/*

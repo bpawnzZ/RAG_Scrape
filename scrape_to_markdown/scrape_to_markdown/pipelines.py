@@ -25,9 +25,13 @@ class MarkdownPipeline:
                 )
 
         # Write to markdown file
-        self.markdown_file.write(f"# {item['title']}\n\n")
+        title = item.get('title', 'Untitled Document')
+        self.markdown_file.write(f"# {title}\n\n")
         self.markdown_file.write(f"**URL:** {item['url']}\n\n")
-        self.markdown_file.write(f"{item['content']}\n\n")
+        if 'content' in item:
+            self.markdown_file.write(f"{item['content']}\n\n")
+        else:
+            self.markdown_file.write("No content available\n\n")
         self.markdown_file.write("---\n\n")
         return item
 
