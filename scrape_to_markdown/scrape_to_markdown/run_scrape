@@ -1,0 +1,37 @@
+#!/usr/bin/env python3
+import os
+import sys
+import subprocess
+from argparse import ArgumentParser
+
+def main():
+    parser = ArgumentParser(description='Run documentation scraper')
+    parser.add_argument('--url', required=True, help='URL to scrape')
+    args = parser.parse_args()
+
+    # Validate URL
+    if not args.url.startswith(('http://', 'https://')):
+        print(f"Error: Invalid URL format - {args.url}")
+        sys.exit(1)
+
+    try:
+        # Run the scrapy command
+        command = [
+            'scrapy', 'crawl', 'domain_spider',
+            '-a', f'start_url={args.url}',
+            '-o', 'output.json'
+        ]
+        
+        result = subprocess.run(command, check=True)
+        print("\nScraping completed successfully!")
+        print(f"Results saved to output.json and output.md")
+        
+    except subprocess.CalledProcessError as e:
+        print(f"\nError: Scraping failed with code {e.returncode}")
+        sys.exit(1)
+    except Exception as e:
+        print(f"\nUnexpected error: {str(e)}")
+        sys.exit(1)
+
+if __name__ == '__main__':
+    main()

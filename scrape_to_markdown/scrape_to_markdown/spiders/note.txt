@@ -1,0 +1,1 @@
+scrapy crawl domain_spider -a start_url="YOUR_URL_HERE"
