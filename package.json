@@ -1,0 +1,16 @@
+{
+  "name": "js_scrape",
+  "version": "1.0.0",
+  "description": "Web scraping project using JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromium-bidi": "^0.4.0",
+    "undici": "^5.0.0"
+  }
+}
