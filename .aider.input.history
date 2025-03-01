@@ -19,3 +19,24 @@
 
 # 2025-02-28 18:57:20.836969
 +N
+
+# 2025-02-28 19:18:19.612008
++look at .gitignore i want all files that should be excludede from a git push to be excluded.  but push everything else
+
+# 2025-02-28 19:18:38.978217
++N
+
+# 2025-02-28 19:19:27.889458
++look at .gitignore i want all files that should be excludede from a git push to be excluded.  but push everything else.  a bunch of files that shouldnt have been added with git add and git commit have been commited. i need to role that back
+
+# 2025-02-28 19:22:16.504572
++git my repo syncd up no scraper_fixed.js should be on .gitignore
+
+# 2025-02-28 19:23:10.707924
++get my repo syncd up with git
+
+# 2025-02-28 19:24:45.187855
++you can create package.json but lot of those .gitignore entries i need especially the ones at the top
+
+# 2025-02-28 19:25:48.217181
++try to sync. weird issues. git add then commit then push
