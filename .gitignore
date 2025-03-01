@@ -10,6 +10,7 @@ scrape_github/repos/
 scrape_github/config.ini
 scrape_to_markdown/.scrapy/
 files/
+.aider.chat.history.md
 __pycache__/
 *.py[cod]
 *$py.class
