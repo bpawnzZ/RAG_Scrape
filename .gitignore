@@ -5,10 +5,10 @@ scrape_to_markdown/spiders/__pycache__/
 scrape_to_markdown/images/
 js_scrape/scraper_fixed.js
 js_scrape/node_modules/
+js_scrape/scraped_output/
 scrape_github/repos/
 scrape_github/config.ini
 scrape_to_markdown/.scrapy/
-.aider*
 files/
 __pycache__/
 *.py[cod]
@@ -137,3 +137,4 @@ temp/
 *.local
 scrape_github/config.ini
 scrape_github/repos/*
+.aider*
