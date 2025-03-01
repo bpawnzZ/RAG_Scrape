@@ -1,5 +1,7 @@
-# Python
+# Ignore scraped output
+js_scrape/scraped_output/
 scrape_to_markdown/scrape_to_markdown/__pycache__
+scrape_to_markdown/spiders/__pycache__/
 scrape_to_markdown/images/
 js_scrape/scraper_fixed.js
 js_scrape/node_modules/

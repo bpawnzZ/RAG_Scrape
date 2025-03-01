@@ -8,7 +8,7 @@ This repository contains three powerful web scraping tools, each designed for di
 |---------|-----------|---------------------|--------------------|
 | Language | JavaScript | Python | Python |
 | Command | `node js_scrape/scraper.js domain.xyz/site` | `scrape_to_markdown/run_scrape domain.xyz/site` | `python scrape_github/scripts/github_rag_scraper.py github.com/repo` |
-| Output Format | JSON | Markdown | Structured Data |
+| Output Format | Markdown | Markdown | Structured Data |
 | Dependencies | Node.js | Scrapy | Python |
 | Best For | General web scraping | Content extraction | GitHub repository data |
 
@@ -23,59 +23,15 @@ node js_scrape/scraper.js https://example.com
 
 ### Features
 - Lightweight JavaScript implementation
-- Extracts page content into JSON format
-- Easy to modify for custom scraping needs
-
-## scrape_to_markdown
-
-A Python Scrapy-based tool for converting web content into Markdown format.
-
-### Usage
-```bash
-scrape_to_markdown/run_scrape https://example.com
-```
-
-### Features
-- Built on Scrapy framework
-- Converts HTML to clean Markdown
-- Preserves document structure and formatting
-
-## github_rag_scraper
-
-A Python tool for extracting structured data from GitHub repositories.
-
-### Usage
-<write_to_file>
-<path>README.md</path>
-<content>
-# Web Scraping Tools
-
-This repository contains three powerful web scraping tools, each designed for different use cases:
-
-## Tools Overview
-
-| Feature | js_scrape | scrape_to_markdown | github_rag_scraper |
-|---------|-----------|---------------------|--------------------|
-| Language | JavaScript | Python | Python |
-| Command | `node js_scrape/scraper.js domain.xyz/site` | `scrape_to_markdown/run_scrape domain.xyz/site` | `python scrape_github/scripts/github_rag_scraper.py github.com/repo` |
-| Output Format | JSON | Markdown | Structured Data |
-| Dependencies | Node.js | Scrapy | Python |
-| Best For | General web scraping | Content extraction | GitHub repository data |
-
-## js_scrape
-
-A Node.js based web scraper for extracting structured data from websites.
-
-### Usage
-```bash
-node js_scrape/scraper.js https://example.com
-```
-
-### Features
-- Lightweight JavaScript implementation
-- Extracts page content into JSON format
+- Extracts page content into Markdown format
 - Easy to modify and extend
 - Handles basic web scraping tasks efficiently
+- Outputs to `js_scrape/scraped_output/` directory
+
+### Configuration
+- Output directory: `js_scrape/scraped_output/`
+- Output files are in Markdown format
+- Scraped data is excluded from version control (see .gitignore)
 
 ## scrape_to_markdown
 

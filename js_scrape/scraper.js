@@ -3,6 +3,9 @@ const fs = require('fs');
 const process = require('process');
 const { URL } = require('url');
 
+// Configuration
+const OUTPUT_DIR = './scraped_output';
+
 // Function to scrape a single page
 async function scrapePage(page, url) {
   await page.goto(url, { waitUntil: 'networkidle2' });
@@ -67,14 +70,12 @@ async function crawlAndScrape(baseUrl, maxPages = 300) {
 
 // Function to save scraped data to a .md file
 function saveToMarkdown(data, filename = 'scraped_data.md') {
-  const outputDir = '/home/insomnia/scraped_data';
-  const outputPath = `${outputDir}/${filename}`;
-  
   // Create directory if it doesn't exist
-  if (!fs.existsSync(outputDir)) {
-    fs.mkdirSync(outputDir, { recursive: true });
+  if (!fs.existsSync(OUTPUT_DIR)) {
+    fs.mkdirSync(OUTPUT_DIR, { recursive: true });
   }
   
+  const outputPath = `${OUTPUT_DIR}/${filename}`;
   const markdownContent = data.join('\n');
   fs.writeFileSync(outputPath, markdownContent, 'utf8');
   console.log(`Scraped data saved to ${outputPath}`);
